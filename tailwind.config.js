@@ -11,6 +11,9 @@ export default {
       },
       backgroundImage: {
         'gradient': 'linear-gradient(to right, #FF89CA, #80D7DA)',
+      },
+      fontFamily: {
+        'page-font': ["Poppins", "sans-serif"]
       }
     },
   },
