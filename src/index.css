@@ -9,9 +9,29 @@
     color: transparent;
 }
 
+.carina-gradient-color-text {
+    background-image: linear-gradient(to left, #80D7DA 60%, #FF89CA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@media (min-width: 1200px) {
+    .carina-gradient-color-text {
+        background-image: linear-gradient(to left, #80D7DA 10%, #FF89CA 100%);
+    }
+}
+
 .desktop-image {
     background-image: url("/Desktopbackground.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
+
+.mobile-image {
+    background-image: url("/Backgroundmobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

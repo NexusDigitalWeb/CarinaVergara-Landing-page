@@ -1,13 +1,15 @@
 import React from "react";
 import "./index.css";
+import Navbar from "./components/navbar/Navbar";
+import { BrowserRouter } from "react-router-dom";
 
 const App = (): React.ReactElement => {
   return (
-    <div>
-      <h1 className="carina-gradient-color text-[70px] font-bold">
-        Primer Proyecto Oficial
-      </h1>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>
+    </>
   );
 };
 
