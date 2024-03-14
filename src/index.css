@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carina-gradient-color {
+    background-image: linear-gradient(to left, #80D7DA 30%, #FF89CA 110%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.desktop-image {
+    background-image: url("/Desktopbackground.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

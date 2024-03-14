@@ -1,11 +1,11 @@
-import './App.css'
+import React from 'react'
+import './index.css'
 
-function App() {
-
+const App = (): React.ReactElement => {
   return (
-    <>
-      <h1>Primer Proeycto Oficial</h1>
-    </>
+    <div>
+      <h1 className='carina-gradient-color text-[70px] font-bold'>Primer Proyecto Oficial</h1>
+    </div>
   )
 }
 
