@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: none;
   }
 
 .mobile-image {
@@ -34,4 +35,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+}
+
+@media (min-width: 1200px) {
+    .mobile-image {
+        display: none;
+    }
+    .desktop-image {
+        background-image: url("/Desktopbackground.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+            display: flex;
+    }
 }
