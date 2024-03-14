@@ -9,3 +9,8 @@ export interface CardQuestion {
     pregunta: string,
     respuesta: string
 }
+
+export interface ContacMeInterface {
+    text: string,
+    link: string
+}

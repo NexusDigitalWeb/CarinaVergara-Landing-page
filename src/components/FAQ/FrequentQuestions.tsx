@@ -5,7 +5,7 @@ import CardQuestions from './CardQuestions'
 
 const FrequentQuestions = (): React.ReactElement => {
 
-
+ 
   return (
     <div className=' px-4'>
       <h2 className='w-[233px] h-[96px] text-3xl'>Preguntas Frecuentes</h2>

@@ -10,7 +10,7 @@ export default {
         'light-blue': '#80D7DA'
       },
       backgroundImage: {
-        'gradient': 'linear-gradient(to right, #FF89CA, #80D7DA)',
+        'gradient': 'linear-gradient(to top, #FF89CA,#9BC6D6, #80D7DA)',
       },
       fontFamily: {
         'page-font': ["Poppins", "sans-serif"]
