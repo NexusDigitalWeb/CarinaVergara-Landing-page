@@ -14,3 +14,8 @@ export interface ContacMeInterface {
     text: string,
     link: string
 }
+
+export interface MenuItenrface {
+    text: string,
+    to: string
+}
