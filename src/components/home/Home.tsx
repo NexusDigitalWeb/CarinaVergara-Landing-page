@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia";
 
 const Home = (): React.ReactElement => {
   return (
-    <div className="w-screen h-full relative top-[100px] -z-10 lg:flex justify-center items-center">
+    <div className="w-screen h-dvh relative top-[100px] -z-10 lg:flex justify-center items-center">
       <div className="flex flex-col w-full justify-center items-center lg:flex-row lg:justify-between lg:w-[90%]">
         <div className="flex flex-col items-center w-[90%] lg:w-[50%]" data-aos="fade-right" data-aos-duration="800">
           <h1 className="carina-gradient-color text-[38px] font-medium md:text-[50px] xl:text-[70px]" >Carina Vergara</h1>
