@@ -3,7 +3,7 @@ import ContactMe from '../buttons/ContactMe'
 
 const AboutMe = (): React.ReactElement => {
   return (
-    <div className='px-4 min-w-[270px] mb-20 h-full relative top-[100px]'>
+    <div className='px-4 min-w-[270px] mb-20 h-full relative top-[100px] -z-10'>
       <div className=''>
         <h2 className='w-[233px] h-[96px] text-3xl'>Acerca de mí</h2>
         <div className='bg-gradient rounded-xl min-w-[270px] h-[654px] shadow-xl flex flex-col items-center justify-center gap-8'>

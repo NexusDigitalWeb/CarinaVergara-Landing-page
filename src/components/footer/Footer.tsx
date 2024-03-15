@@ -11,7 +11,7 @@ import CopyrighIcon from '../../../public/CopyrighIcon.svg'
 
 const Footer = (): React.ReactElement => {
   return (
-    <footer className='flex flex-col items-center justify-center bg-water-green text-white relative top-[100px] p-2 w-full'>
+    <footer className='flex flex-col items-center justify-center bg-water-green text-white relative top-[100px] p-2 w-full -z-10'>
       <div className='flex flex-col items-center'>
         <img src={LogoCarina} width="150" height="200" className='z-10' alt="" />
         <img width="450" height="450" className='absolute top-[150px] max-w-[320px] z-0' src={FooterImage} alt="" />

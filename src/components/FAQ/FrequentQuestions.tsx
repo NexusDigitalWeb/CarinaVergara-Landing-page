@@ -7,7 +7,7 @@ const FrequentQuestions = (): React.ReactElement => {
 
  
   return (
-    <div className='px-4 mb-20 w-full h-full relative top-[100px]'>
+    <div className='px-4 mb-20 w-full h-full relative top-[100px] -z-10'>
       <h2 className='w-[233px] h-[96px] text-3xl'>Preguntas Frecuentes</h2>
       <div className='flex flex-col gap-10'>
         {
