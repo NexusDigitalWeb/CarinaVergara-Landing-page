@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import HamburgerButton from "../buttons/HamburgerButton";
 import MenuMobile from "./MenuMobile";
 import MenuDesktop from "./MenuDesktop";
+import SocialMedia from "../home/SocialMedia";
 
 const Navbar = (): React.ReactElement => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -38,9 +39,10 @@ const Navbar = (): React.ReactElement => {
         </div>
         <HamburgerButton isOpened={isMenuOpen} setState={handleClick} />
         <MenuDesktop />
-        <p className="hidden lg:flex px-5 text-texts-color">
+        <SocialMedia/>
+        {/* <p className="hidden lg:flex px-5 text-texts-color">
           +54 9 11 6281-0278
-        </p>
+        </p> */}
       </div>
 
       <MenuMobile stateAction={isMenuOpen} setState={handleClick} />

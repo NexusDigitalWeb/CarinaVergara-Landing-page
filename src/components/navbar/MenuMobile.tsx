@@ -36,7 +36,7 @@ const MenuMobile = ({
 
   return (
     <div
-      onClick={() => setState(!stateAction)}
+      // onClick={() => setState(!stateAction)}
       className={`w-full h-screen absolute top-0 ${
         stateAction ? "left-0" : "-left-[1000px]"
       } bg-background-page-color transition-all ease-in duration-300 lg:hidden`}
@@ -55,11 +55,11 @@ const MenuMobile = ({
             stateAction ? "left-0" : "-left-[1000px]"
           } transition-all ease-in duration-500`}
         >
-          <NavLink to="#" className="carina-gradient-color-text">Inicio</NavLink>
-          <NavLink to="#services">Servicios</NavLink>
-          <NavLink to="#students">Alumnos</NavLink>
-          <NavLink to="#aboutMe">Sobre mí</NavLink>
-          <NavLink to="#FAQ">FAQ</NavLink>
+          <a href="#" className="carina-gradient-color-text" onClick={() => setState(false)}>Inicio</a>
+          <NavLink to="#services" onClick={() => setState(false)}>Servicios</NavLink>
+          <NavLink to="#students" onClick={() => setState(false)}>Alumnos</NavLink>
+          <NavLink to="#aboutMe" onClick={() => setState(false)}>Sobre mí</NavLink>
+          <NavLink to="#FAQ" onClick={() => setState(false)}>FAQ</NavLink>
         </div>
 
         <div
