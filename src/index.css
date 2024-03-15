@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .carina-gradient-color {
-    background-image: linear-gradient(to left, #80D7DA 30%, #FF89CA 110%);
+    background-image: linear-gradient(to left, #80D7DA 30%, #FF89CA 80%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -28,7 +28,7 @@
     background-position: center;
     background-size: cover;
     display: none;
-  }
+}
 
 .mobile-image {
     background-image: url("/Backgroundmobile.svg");
@@ -42,11 +42,42 @@
     .mobile-image {
         display: none;
     }
+
     .desktop-image {
         background-image: url("/Desktopbackground.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-            display: flex;
+        display: flex;
     }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate-out {
+    animation: fadeOut 1s ease forwards;
+}
+
+.animate-in {
+    animation: fadeIn 1s ease forwards;
 }

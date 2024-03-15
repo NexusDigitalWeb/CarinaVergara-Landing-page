@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction } from "react";
+import React, { Dispatch, SetStateAction, useEffect } from "react";
 import HamburgerCloseButton from "../buttons/HamburgerCloseButton";
 import { NavLink } from "react-router-dom";
 import "../../index.css";
@@ -7,9 +7,11 @@ import LotusFlower from "../../images/LotusFlower";
 /**
  * Toma los estados del componente principal y evalua dependiendo el estado si se muestra o no
  * Tiene un evento de click toda la ventana para volver hacia atras
+ * Traba la ventana si el menu esta abierto, para que no se pueda seguir scrolleando
  * @param { SetStateAction, setState }
  * @returns Mobile navbar window
  */
+
 const MenuMobile = ({
   stateAction,
   setState,
@@ -17,6 +19,21 @@ const MenuMobile = ({
   stateAction: boolean;
   setState: Dispatch<SetStateAction<boolean>>;
 }): React.ReactElement => {
+  // Función para manejar el bloqueo/desbloqueo del scroll del cuerpo
+  useEffect(() => {
+    if (stateAction) {
+      // Si el menú está abierto, bloquea el scroll
+      document.body.style.overflow = "hidden";
+    } else {
+      // Si el menú está cerrado, habilita el scroll
+      document.body.style.overflow = "auto";
+    }
+    // Limpia el efecto cuando el componente se desmonta
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [stateAction]);
+
   return (
     <div
       onClick={() => setState(!stateAction)}
@@ -47,10 +64,10 @@ const MenuMobile = ({
 
         <div
           className={` ${
-            stateAction ? "absolute top-[10%] left-[20%]" : "hidden"
+            stateAction ? "absolute top-[10%] left-[20%] md:-top-[30%] md:left-[40%]" : "hidden"
           } transition-all ease-in duration-700 z-0`}
         >
-          <LotusFlower svgClassName="w-[600px] h-[600px]" />
+          <LotusFlower svgClassName="w-[600px] h-[600px] md:w-[800px] md:h-[800px]" />
         </div>
       </div>
     </div>
