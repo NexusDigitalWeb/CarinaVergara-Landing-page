@@ -12,11 +12,13 @@ import CopyrighIcon from '../../../public/CopyrighIcon.svg';
 const Footer = (): React.ReactElement => {
   return (
     <footer className='relative bg-water-green text-white p-2 w-full -z-10'>
-      <div className='z-10 flex flex-col items-center'>
-        <img src={LogoCarina} width='150' height='200' alt='' />
-      </div>
-      <div className='absolute bottom-0 left-0 w-full h-[450px] max-w-[450px] z-[1]'>
-        <img className='w-full h-full ' src={FooterImage} alt='' />
+      <div className='flex flex-col items-center justify-center'>
+        <div className='z-10 flex flex-col items-center'>
+          <img src={LogoCarina} width='150' height='200' alt='' />
+        </div>
+        <div className='absolute bottom-2 w-full h-[450px] max-w-[450px] z-[1]'>
+          <img className='w-full h-full ' src={FooterImage} alt='' />
+        </div>
       </div>
       <div className='z-10 flex flex-col gap-2 mb-5 min-w-[150px] justify-center items-center'>
         {menu.menu.map((item: MenuItenrface, index: number) => (
