@@ -8,6 +8,7 @@ import WsspIcon from '/whatsappicon.svg';
 import FacebookIcon from '/facebookicon.svg';
 import InstagramIcon from '/SocialInstagram.svg';
 import CopyrighIcon from '/CopyrighIcon.svg';
+import { NavLink } from 'react-router-dom';
 
 const Footer = (): React.ReactElement => {
 
