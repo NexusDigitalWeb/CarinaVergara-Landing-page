@@ -7,6 +7,7 @@ import AboutMe from "./components/aboutme/AboutMe";
 import Footer from "./components/footer/Footer";
 import AOS from "aos";
 import "./index.css";
+import ServicesPage from "./components/services/ServicesPage";
 
 
 AOS.init();
@@ -18,6 +19,7 @@ const App = (): React.ReactElement => {
       <BrowserRouter>
         <Navbar />
         <Home/>
+        <ServicesPage />
         <AboutMe />
         <FrequentQuestions />
         <Footer />

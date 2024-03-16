@@ -56,10 +56,10 @@ const MenuMobile = ({
           } transition-all ease-in duration-500`}
         >
           <a href="#" className="carina-gradient-color-text" onClick={() => setState(false)}>Inicio</a>
-          <NavLink to="#services" onClick={() => setState(false)}>Servicios</NavLink>
-          <NavLink to="#students" onClick={() => setState(false)}>Alumnos</NavLink>
-          <NavLink to="#aboutMe" onClick={() => setState(false)}>Sobre mí</NavLink>
-          <NavLink to="#FAQ" onClick={() => setState(false)}>FAQ</NavLink>
+          <a href="#services" onClick={() => setState(false)}>Servicios</a>
+          <a href="#students" onClick={() => setState(false)}>Alumnos</a>
+          <a href="#aboutMe" onClick={() => setState(false)}>Sobre mí</a>
+          <a href="#FAQ" onClick={() => setState(false)}>FAQ</a>
         </div>
 
         <div
