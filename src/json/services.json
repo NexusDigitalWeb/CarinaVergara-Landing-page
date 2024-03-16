@@ -1,0 +1,96 @@
+{
+  "services": [
+    {
+      "title": "Clases online",
+      "description": "descripción 1",
+      "image": "/YogasvgmobilesServices.svg",
+      "modal": {
+        "service1": {
+          "text": "Yoga integral",
+          "wppLink": "string 1"
+        },
+        "service2": {
+          "text": "Fusión Flow",
+          "wppLink": "string 2"
+        },
+        "service3": {
+          "text": "Animal Flow",
+          "wppLink": "string 3"
+        },
+        "service4": {
+          "text": "Naad Yoga",
+          "wppLink": "string 4"
+        }
+      }
+    },
+    {
+      "title": "Clases online",
+      "description": "descripción 1",
+      "image": "/YogasvgmobilesServices.svg",
+      "modal": {
+        "service1": {
+          "text": "Yoga integral",
+          "wppLink": "string 1"
+        },
+        "service2": {
+          "text": "Fusión Flow",
+          "wppLink": "string 2"
+        },
+        "service3": {
+          "text": "Animal Flow",
+          "wppLink": "string 3"
+        },
+        "service4": {
+          "text": "Naad Yoga",
+          "wppLink": "string 4"
+        }
+      }
+    },
+    {
+      "title": "Clases online",
+      "description": "descripción 1",
+      "image": "/YogasvgmobilesServices.svg",
+      "modal": {
+        "service1": {
+          "text": "Yoga integral",
+          "wppLink": "string 1"
+        },
+        "service2": {
+          "text": "Fusión Flow",
+          "wppLink": "string 2"
+        },
+        "service3": {
+          "text": "Animal Flow",
+          "wppLink": "string 3"
+        },
+        "service4": {
+          "text": "Naad Yoga",
+          "wppLink": "string 4"
+        }
+      }
+    },
+    {
+      "title": "Clases online",
+      "description": "descripción 1",
+      "image": "/YogasvgmobilesServices.svg",
+      "modal": {
+        "service1": {
+          "text": "Yoga integral",
+          "wppLink": "string 1"
+        },
+        "service2": {
+          "text": "Fusión Flow",
+          "wppLink": "string 2"
+        },
+        "service3": {
+          "text": "Animal Flow",
+          "wppLink": "string 3"
+        },
+        "service4": {
+          "text": "Naad Yoga",
+          "wppLink": "string 4"
+        }
+      }
+    }
+  ]
+}
