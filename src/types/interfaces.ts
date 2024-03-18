@@ -24,25 +24,14 @@ export interface MenuItenrface {
 export interface ServicesTypes {
   title: string;
   description: string;
+  important?: string;
   image: string;
-  modal: ModalTypes;
+  modal: ModalTypes[];
+  is_a_unique_service: boolean
 }
 
 export interface ModalTypes {
-  service1?: {
-    text: string,
-    wppLink: string
-  };
-  service2?: {
-    text: string,
-    wppLink: string
-  };
-  service3?: {
-    text: string,
-    wppLink: string
-  };
-  service4?: {
-    text: string,
-    wppLink: string
-  };
+  text: string
+  wppLink: string
+  description: string
 }
