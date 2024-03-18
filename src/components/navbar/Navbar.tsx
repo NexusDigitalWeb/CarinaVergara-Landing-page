@@ -30,7 +30,7 @@ const Navbar = (): React.ReactElement => {
   return (
     <nav
       className={`w-full h-[80px] md:h-[100px] fixed transition-all duration-500 ${
-        isScrolled ? "bg-background-page-color" : "bg-transparent"
+        isScrolled ? "bg-background-page-color z-10" : "bg-transparent"
       }`}
     >
       <div className="flex items-center justify-between h-full px-2 bg-transparent md:px-0 lg:px-5">

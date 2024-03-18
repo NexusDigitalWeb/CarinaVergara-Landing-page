@@ -5,7 +5,7 @@ import CardQuestions from "./CardQuestions";
 
 const FrequentQuestions = (): React.ReactElement => {
   return (
-    <div className="px-4 mb-20 w-full relative  -z-10">
+    <div className="mb-20 p-4">
       <h2 className="text-3xl mb-6">Preguntas Frecuentes</h2>
       <div className="flex flex-col gap-6">
         {questions.preguntasFrecuentes.map((item: Questions, index: number) => (

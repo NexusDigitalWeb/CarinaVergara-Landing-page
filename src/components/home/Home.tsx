@@ -4,7 +4,7 @@ import ContactMe from "../buttons/ContactMe";
 
 const Home = (): React.ReactElement => {
   return (
-    <div className="w-screen  relative top-[100px]  -z-10 lg:flex justify-center items-center">
+    <div className="w-screen mt-20 lg:flex justify-center items-center -z-10">
       <div className="flex flex-col w-full justify-center items-center lg:flex-row lg:justify-between lg:w-[90%] lg:gap-20">
         <div
           className="flex flex-col items-center w-[90%] lg:w-[50%] gap-5"

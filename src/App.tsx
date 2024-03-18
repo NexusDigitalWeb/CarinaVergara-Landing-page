@@ -18,10 +18,12 @@ const App = (): React.ReactElement => {
     <>
       <BrowserRouter>
         <Navbar />
-        <Home/>
-        <ServicesPage />
-        <AboutMe />
-        <FrequentQuestions />
+        <div className="flex flex-col gap-10">
+          <Home />
+          <ServicesPage />
+          <AboutMe />
+          <FrequentQuestions />
+        </div>
         <Footer />
       </BrowserRouter>
     </>
