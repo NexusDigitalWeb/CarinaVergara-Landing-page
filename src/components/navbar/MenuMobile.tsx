@@ -1,6 +1,5 @@
 import React, { Dispatch, SetStateAction, useEffect } from "react";
 import HamburgerCloseButton from "../buttons/HamburgerCloseButton";
-import { NavLink } from "react-router-dom";
 import "../../index.css";
 import LotusFlower from "../../images/LotusFlower";
 

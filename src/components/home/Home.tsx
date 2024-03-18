@@ -4,7 +4,7 @@ import ContactMe from "../buttons/ContactMe";
 
 const Home = (): React.ReactElement => {
   return (
-    <div className="w-screen mt-20 lg:flex justify-center items-center -z-10">
+    <div className="w-screen mt-20 lg:h-dvh  lg:mt-5 lg:flex justify-center items-center -z-10">
       <div className="flex flex-col w-full justify-center items-center lg:flex-row lg:justify-between lg:w-[90%] lg:gap-20">
         <div
           className="flex flex-col items-center w-[90%] lg:w-[50%] gap-5"
@@ -31,11 +31,19 @@ const Home = (): React.ReactElement => {
             </p>
             <p>
               "Entreno la mente 🧩 a través del cuerpo con clases, programas y
-              talleres 🧠."
+              talleres 🧠.
+            </p>
+            <p>
+              Te ayudo a generar consciencia de tus hábitos, 💪🏼empoderar tus
+              metas y transformar tus creencias limitantes"🧘‍♀️
             </p>
           </div>
           <div className="hidden mt-10 lg:flex">
-            <ContactMe text="Contáctame" link="" />
+            <ContactMe
+              text="Contáctame"
+              link=""
+              classname="lg:w-[300px] lg:h-[60px] lg:text-[18px]"
+            />
           </div>
         </div>
 
@@ -73,7 +81,7 @@ const Home = (): React.ReactElement => {
             </p>
           </div>
           <div className="mt-10 lg:hidden">
-            <ContactMe text="Contáctame" link="" />
+            <ContactMe text="Contáctame" link="" /> {/*Agregar link de wpp  */}
           </div>
         </div>
       </div>

@@ -2,95 +2,114 @@
   "services": [
     {
       "title": "Clases online",
-      "description": "descripción 1",
+      "description": "Clases grupales online de funcional, clases por zoom de yoga integral, fusión flow, animal flow con la opción de recibir la grabación semanal.",
+      "important": "Todas las clases se dan grupales y personalizadas.",
       "image": "/YogasvgmobilesServices.svg",
-      "modal": {
-        "service1": {
+      "is_a_unique_service": false,
+      "modal": [
+        {
           "text": "Yoga integral",
+          "description": "Ejercicios físicos, asanas y técnicas de yoga adaptados para mejorar la postura y el bienestar mental. Incluye meditaciones guiadas, mantras y visualizaciones para estimular y regular las emociones.", 
           "wppLink": "string 1"
         },
-        "service2": {
+        {
           "text": "Fusión Flow",
+          "description": "Movilidad, Hatha yoga, animal flow y mindfullness en una hora.", 
           "wppLink": "string 2"
         },
-        "service3": {
+        {
           "text": "Animal Flow",
+          "description": "Trabajos con el propio peso corporal uniendo conexión, rendimiento, resiliencia, trabajar la movilidad de manera funcional, el sistema neuronal y la fuerza combinando patrones de movimiento que liberan nuestra mente para poder usar nuestro cuerpo y disfrutar en el proceso.", 
           "wppLink": "string 3"
         },
-        "service4": {
-          "text": "Naad Yoga",
+        {
+          "text": "Funcional en casa",
+          "description": "Entrenamiento adaptado a los elementos con los que contas en casa, grupal o individual personalizado.",
           "wppLink": "string 4"
+        },
+        {
+          "text":"Naad Yoga",
+          "description": "el uso de la voz nos libera y nos permite una forma de meditar muy hermosa y efectiva. Meditar y cantar mantras con el uso adecuado de la respiración y la voz para disminuir el estrés y calmar la mente.",
+          "wppLink": "string 6"
         }
-      }
+      ]
     },
     {
-      "title": "Clases online",
-      "description": "descripción 1",
+      "title": "Programación, y entrenamientos a distancia",
+      "description": "Programación de entrenamientos grupales o personalizados de fitness, especialmente crossfit, Fitness Preventivo, POWERLIFTING y objetivos personales.",
+      "important": "Todas las clases incluyen fusión flow.",
       "image": "/YogasvgmobilesServices.svg",
-      "modal": {
-        "service1": {
-          "text": "Yoga integral",
+      "is_a_unique_service": false,
+      "modal": [
+        {
+          "text": "Crossfit",
+          "description": "Para atletas, intermedio o principiantes. Entrenamiento funcional y de potencia continuamente variado e intenso.",
           "wppLink": "string 1"
         },
-        "service2": {
-          "text": "Fusión Flow",
-          "wppLink": "string 2"
+        {
+          "text": "Fitness",
+          "description": "Plan de gimnasio adaptado.",
+          "wppLink": "string 1"
         },
-        "service3": {
-          "text": "Animal Flow",
-          "wppLink": "string 3"
+        {
+          "text": "Fitness Preventivo",
+          "description": "Fitness enfocado en un trabajo simétrico y preventivo con fusión flow y animal flow.",
+          "wppLink": "string 1"
         },
-        "service4": {
-          "text": "Naad Yoga",
-          "wppLink": "string 4"
+        {
+          "text": "Powerlifting",
+          "description": "Deporte de fuerza principiantes, amateurs y profesionales para todas las edades.",
+          "wppLink": "string 1"
         }
-      }
+      ]
     },
     {
-      "title": "Clases online",
-      "description": "descripción 1",
+      "title": "X-FEMME",
+      "description": "Programación de fitness y fortalecimiento centrado en las demandas específicas del cuerpo femenino, diseñado para mejorar tu bienestar físico y potenciar tu fuerza.",
+      "important": "Para todos los niveles de experiencia.",
       "image": "/YogasvgmobilesServices.svg",
-      "modal": {
-        "service1": {
-          "text": "Yoga integral",
+      "is_a_unique_service": false,
+      "modal": [
+        {
+          "text": "Principiantes",
+          "description": "Plan de entrenamiento para personas principiantes.",
           "wppLink": "string 1"
         },
-        "service2": {
-          "text": "Fusión Flow",
-          "wppLink": "string 2"
+        {
+          "text": "Intermedias",
+          "description": "Plan de entrenamiento para personas intermedias.",
+          "wppLink": "string 1"
         },
-        "service3": {
-          "text": "Animal Flow",
-          "wppLink": "string 3"
-        },
-        "service4": {
-          "text": "Naad Yoga",
-          "wppLink": "string 4"
+        {
+          "text": "Avanzadas",
+          "description": "Plan de entrenamiento para personas avanzadas.",
+          "wppLink": "string 1"
         }
-      }
+      ]
     },
     {
-      "title": "Clases online",
-      "description": "descripción 1",
+      "title": "Talleres y capacitaciones",
+      "description": "Experimenta tres sesiones de 2 horas cada una enfocadas en mejorar tu bienestar físico, mental y emocional, para alcanzar tus objetivos y metas con mayor claridad y enfoque.",
+      "important": "Fecha a acordar.",
       "image": "/YogasvgmobilesServices.svg",
-      "modal": {
-        "service1": {
-          "text": "Yoga integral",
+      "is_a_unique_service": true,
+      "modal": [
+        {
+          "text": "Día 1",
+          "description": "Disfrutá de 45 minutos de enfoque intenso en el coaching personal, seguidos de una sesión de 45 minutos de meditación y visualización diseñada para clarificar tus objetivos. Finaliza con 30 minutos de práctica de Yoga dinámica, enfocada en liberar bloqueos y recargar tu energía vital.",
+          "wppLink": "string 1"
+        },        
+        {
+          "text": "Día 2",
+          "description": "Sumergite en 45 minutos de trabajo de coaching, donde explorarás la teoría y el poder de los hábitos para el éxito. Continúa con una sesión de meditación de 45 minutos, diseñada para cultivar una mentalidad ganadora. Finaliza con 30 minutos de práctica de yoga, perfecta para crear hábitos positivos y enfocar tu mente hacia tus objetivos.",
           "wppLink": "string 1"
         },
-        "service2": {
-          "text": "Fusión Flow",
-          "wppLink": "string 2"
-        },
-        "service3": {
-          "text": "Animal Flow",
-          "wppLink": "string 3"
-        },
-        "service4": {
-          "text": "Naad Yoga",
-          "wppLink": "string 4"
+        {
+          "text": "Día 3",
+          "description": "Disfrutá de 45 minutos de trabajo de coaching mientras exploras tus creencias más profundas. Sumergite luego en una sesión de 45 minutos de meditación para conectarte con tu propósito o Dharma. Finaliza con 30 minutos de práctica de yoga y mantras para cultivar un equilibrio emocional duradero.",
+          "wppLink": "string 1"
         }
-      }
+      ]
     }
   ]
 }

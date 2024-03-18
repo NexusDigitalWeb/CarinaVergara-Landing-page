@@ -8,7 +8,6 @@ import WsspIcon from "/whatsappicon.svg";
 import FacebookIcon from "/facebookicon.svg";
 import InstagramIcon from "/SocialInstagram.svg";
 import CopyrighIcon from "/CopyrighIcon.svg";
-import { NavLink } from "react-router-dom";
 
 const Footer = (): React.ReactElement => {
   const [modal, setModal] = useState(false);
@@ -64,7 +63,7 @@ const Footer = (): React.ReactElement => {
                 key={index}
                 className="border-b text-center p-5 w-[200px] z-[1] lg:w-[105px] lg:border-b-0 lg:border-r lg:text-sm"
               >
-                <NavLink to={item.to}>{item.text}</NavLink>
+                <a href={item.to}>{item.text}</a>
               </div>
             ))}
           </div>
