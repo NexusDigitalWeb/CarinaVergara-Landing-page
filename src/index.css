@@ -38,6 +38,15 @@
     display: flex;
 }
 
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; transform: translateX(-10px)}
+  100%  {opacity: 1; transform: translateX(0)}
+}
+
 @media (min-width: 1200px) {
     .mobile-image {
         display: none;

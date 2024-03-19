@@ -61,7 +61,7 @@ const Footer = (): React.ReactElement => {
             {menu.menu.map((item: MenuItenrface, index: number) => (
               <div
                 key={index}
-                className="border-b text-center p-5 w-[200px] z-[1] lg:w-[105px] lg:border-b-0 lg:border-r lg:text-sm"
+                className="border-b text-center p-5 w-[200px] z-[1] lg:w-[105px] lg:h-[40px] lg:flex lg:items-center lg:justify-center lg:border-b-0 lg:border-r lg:text-sm"
               >
                 <a href={item.to}>{item.text}</a>
               </div>

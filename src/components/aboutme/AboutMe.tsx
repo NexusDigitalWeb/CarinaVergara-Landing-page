@@ -1,6 +1,6 @@
 import React from "react";
 import ContactMe from "../buttons/ContactMe"
-import CarinaImg from "../../../public/CarinaVergara.jpg"
+import CarinaImg from "../../../public/CarinaVergara.png"
 
 const AboutMe = (): React.ReactElement => {
   return (
