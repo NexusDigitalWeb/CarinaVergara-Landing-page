@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import reviews from "../../json/reviews.json";
 
 import "swiper/css";
 import LotusFlowerReview from "../../images/LotusFlowerReview";
@@ -19,21 +20,6 @@ const Carrousel = ({
   imgSource,
   imgClassname,
 }: CarrouselTypes): React.ReactElement => {
-  const [reviews, setReviews] = useState<ReviewsTypes[]>();
-
-  const getReviews = async () => {
-    try {
-      const response = await fetch("./src/json/reviews.json");
-      const data = await response.json();
-      setReviews(data.reviews);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  useEffect(() => {
-    getReviews();
-  }, [isAnImage]);
 
   return (
     <div className="w-full h-full mt-10 px-4">
@@ -53,7 +39,7 @@ const Carrousel = ({
                 </div>
               </SwiperSlide>
             ))
-          : reviews?.map((item, index: number) => (
+          : reviews.totalReviews.map((item: ReviewsTypes, index: number) => (
               <SwiperSlide
                 key={index}
                 style={{ display: "flex", justifyContent: "center" }}

@@ -1,27 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { ServicesTypes } from "../../types/interfaces";
+import React from "react";
+import services from "../../json/services.json";
 import MoreInfoButton from "../buttons/MoreInfoButton";
+import { ServicesTypes } from "../../types/interfaces";
 
 const CardServices = (): React.ReactElement => {
-  const [services, setServices] = useState<ServicesTypes[]>([]);
-
-  const getServices = async () => {
-    try {
-      const response = await fetch("./src/json/services.json");
-      const data = await response.json();
-      setServices(data.services);
-    } catch (error) {
-      console.error("Something went wrong with the fetch request: ", error);
-    }
-  };
-
-  useEffect(() => {
-    getServices();
-  }, []);
-
   return (
     <div className="w-full flex flex-col md:flex-row md:flex-wrap md:gap-10 justify-center items-center max-w-[1300px]">
-      {services.map((item, index: number) => (
+      {services.totalServices.map((item: ServicesTypes, index: number) => (
         <div
           key={index}
           className="flex flex-col justify-center items-center mt-10 w-[90%] h-full md:w-[450px] md:h-[450px] lg:w-full lg:h-full max-w-[600px] max-h-[500px] bg-back-gradient rounded-[8px]"
