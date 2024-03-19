@@ -6,25 +6,6 @@ import "swiper/css";
 import LotusFlowerReview from "../../images/LotusFlowerReview";
 import { CarrouselTypes, ReviewsTypes } from "../../types/interfaces";
 
-const MOCK = [
-  {
-    review: "Hola mundo",
-    student: "Lucio Gastellu",
-  },
-  {
-    review: "Hola mundo 2",
-    student: "Lucio Gastellu 2",
-  },
-  {
-    review: "Hola mundo 3",
-    student: "Lucio Gastellu 3",
-  },
-  {
-    review: "Hola mundo 4",
-    student: "Lucio Gastellu 4",
-  },
-];
-
 /**
  * Si la propiedad de isAnImage se cumple, el slider cambia rotundamente para solo fotos, sino, se convierte para escribir textos
  * Es 100% personalizable
