@@ -19,7 +19,6 @@ const CardServices = (): React.ReactElement => {
     getServices();
   }, []);
 
-  console.log(services);
   return (
     <div className="w-full flex flex-col md:flex-row md:flex-wrap md:gap-10 justify-center items-center max-w-[1300px]">
       {services.map((item, index: number) => (
@@ -44,13 +43,21 @@ const CardServices = (): React.ReactElement => {
               <h2 className="text-[20px] underline underline-offset-4 text-white font-medium text-center lg:text-[22px]">
                 {item.title}
               </h2>
-              <p className={`text-[14px] md:text-[16px] px-10 lg:text-[18px] ${item.description.length <= 140 && "text-center"}`}>
+              <p
+                className={`text-[14px] md:text-[16px] px-10 lg:text-[18px] ${
+                  item.description.length <= 140 && "text-center"
+                }`}
+              >
                 {item.description}
               </p>
               <p className="text-[14px] md:text-[16px] text-center font-semibold">
                 {item.important}
               </p>
-              <MoreInfoButton title={item.title} services={item.modal} isAUniqueService={item.is_a_unique_service}/>
+              <MoreInfoButton
+                title={item.title}
+                services={item.modal}
+                isAUniqueService={item.is_a_unique_service}
+              />
             </div>
           </div>
         </div>
