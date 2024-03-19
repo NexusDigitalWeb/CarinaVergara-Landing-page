@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import LogoCarina from "../../../public/LogoCarina.svg";
-import FooterImage from "../../../public/FooterImage.svg";
+import LogoCarina from "/LogoCarina.svg";
+import FooterImage from "/FooterImage.svg";
 import menu from "../../json/menu.json";
 import { MenuItenrface } from "../../types/interfaces";
 import WsspIcon from "/whatsappicon.svg";
