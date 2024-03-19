@@ -1,12 +1,13 @@
 import React from "react";
 import ContactMe from "../buttons/ContactMe"
 import CarinaImg from "../../../public/CarinaVergara.png"
+import TitlesH2 from "../tags/TitlesH2";
 
 const AboutMe = (): React.ReactElement => {
   return (
-    <div className="h-full w-full px-4 md:px-20 flex flex-col gap-10">
-      <h2 className="text-3xl lg:text-[55px]">Acerca de mí</h2>
-      <div className="flex justify-center">
+    <div className="h-full w-full flex flex-col gap-10">
+      <TitlesH2 text="Acerca de mí"/>
+      <div className="flex justify-center px-4 md:px-20 ">
         <div className="bg-gradient rounded-xl min-w-[270px] max-w-[1030px] h-[654px] shadow-xl 
       flex flex-col items-center justify-center lg:flex-row gap-8 lg:px-10"
         >

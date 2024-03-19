@@ -25,7 +25,7 @@ const Carrousel = ({
     <div className="w-full h-full mt-10 px-4">
       <Swiper
         modules={[Autoplay]}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 8000, disableOnInteraction: false }}
         spaceBetween={25}
       >
         {isAnImage
@@ -53,7 +53,7 @@ const Carrousel = ({
                     {item.student}
                   </p>
                   <LotusFlowerReview
-                    classname="opacity-[80%] lg:h-[500px] lg:w-[500px]"
+                    classname="opacity-[80%] h-[390px] w-[390px] lg:h-[500px] lg:w-[500px]"
                     width="390"
                     height="390"
                   />
