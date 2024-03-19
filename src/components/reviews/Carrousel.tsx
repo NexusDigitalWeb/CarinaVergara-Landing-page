@@ -67,7 +67,7 @@ const Carrousel = ({
                     {item.student}
                   </p>
                   <LotusFlowerReview
-                    classname="opacity-[80%]"
+                    classname="opacity-[80%] lg:h-[500px] lg:w-[500px]"
                     width="390"
                     height="390"
                   />
