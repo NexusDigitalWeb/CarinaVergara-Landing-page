@@ -27,7 +27,7 @@ const Titles = (): React.ReactElement => {
 
   return (
     <h2
-      className={`text-[18px] lg:text-[23px] text-texts-color font-semibold mb-5 lg:mb-0 ${
+      className={`text-[18px] lg:text-[23px] text-texts-color font-semibold mb-2 lg:mb-0 ${
         animateOut ? "animate-out" : "animate-in"
       }`}
     >

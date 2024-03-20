@@ -4,7 +4,7 @@
       "title": "Clases online",
       "description": "Clases grupales online de funcional, clases por zoom de yoga integral, fusión flow, animal flow con la opción de recibir la grabación semanal.",
       "important": "Todas las clases se dan grupales y personalizadas.",
-      "image": "/YogasvgmobilesServices.svg",
+      "image": "/ClasesOnline.svg",
       "is_a_unique_service": false,
       "modal": [
         {
@@ -38,7 +38,7 @@
       "title": "Programación, y entrenamientos a distancia",
       "description": "Programación de entrenamientos grupales o personalizados de fitness, especialmente crossfit, Fitness Preventivo, POWERLIFTING y objetivos personales.",
       "important": "Todas las clases incluyen fusión flow.",
-      "image": "/YogasvgmobilesServices.svg",
+      "image": "/Entrenamiento.svg",
       "is_a_unique_service": false,
       "modal": [
         {
@@ -67,7 +67,7 @@
       "title": "X-FEMME",
       "description": "Programación de fitness y fortalecimiento centrado en las demandas específicas del cuerpo femenino, diseñado para mejorar tu bienestar físico y potenciar tu fuerza.",
       "important": "Para todos los niveles de experiencia.",
-      "image": "/YogasvgmobilesServices.svg",
+      "image": "/XFemme.svg",
       "is_a_unique_service": false,
       "modal": [
         {
@@ -91,7 +91,7 @@
       "title": "Talleres y capacitaciones",
       "description": "Experimenta tres sesiones de 2 horas cada una enfocadas en mejorar tu bienestar físico, mental y emocional, para alcanzar tus objetivos y metas con mayor claridad y enfoque.",
       "important": "Fecha a acordar.",
-      "image": "/YogasvgmobilesServices.svg",
+      "image": "/Talleres.svg",
       "is_a_unique_service": true,
       "modal": [
         {

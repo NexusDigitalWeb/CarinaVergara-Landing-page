@@ -58,7 +58,7 @@ const MenuMobile = ({
           <a href="#services" onClick={() => setState(false)}>Servicios</a>
           <a href="#students" onClick={() => setState(false)}>Alumnos</a>
           <a href="#aboutMe" onClick={() => setState(false)}>Sobre mí</a>
-          <a href="#FAQ" onClick={() => setState(false)}>FAQ</a>
+          <a href="#NEW" onClick={() => setState(false)}>Sección nueva</a>
         </div>
 
         <div

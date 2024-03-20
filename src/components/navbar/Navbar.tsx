@@ -3,6 +3,7 @@ import HamburgerButton from "../buttons/HamburgerButton";
 import MenuMobile from "./MenuMobile";
 import MenuDesktop from "./MenuDesktop";
 import SocialMedia from "../home/SocialMedia";
+import LogoCarina from "../../images/LogoCarina";
 
 const Navbar = (): React.ReactElement => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -44,11 +45,7 @@ const Navbar = (): React.ReactElement => {
     >
       <div className="flex items-center justify-between h-full px-2 bg-transparent md:px-0 lg:px-5">
         <div className="w-[80px] h-[80px] lg:w-[180px] flex items-center justify-center md:ml-10 lg:ml-0">
-          <img
-            src="/LogoCarina.svg"
-            alt="logo"
-            className="md:w-[80px] md:h-[80px]"
-          />
+          <LogoCarina classname="w-[130px] h-[130px]"/>
         </div>
         <HamburgerButton isOpened={isMenuOpen} setState={handleClick} />
         <MenuDesktop />

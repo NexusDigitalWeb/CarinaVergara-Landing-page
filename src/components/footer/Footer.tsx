@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import LogoCarina from "/LogoCarina.svg";
-import FooterImage from "/FooterImage.svg";
 import menu from "../../json/menu.json";
 import { MenuItenrface } from "../../types/interfaces";
 import WsspIcon from "/whatsappicon.svg";
@@ -30,16 +29,13 @@ const Footer = (): React.ReactElement => {
 
   return (
     <footer className="relative  gap-2 bg-water-green text-white p-2 lg:px-16 lg:py-5 w-full -z-10 flex flex-col lg:justify-between">
-      <div>
+      <div className="mt-10">
         <div className="flex flex-col items-center justify-center lg:items-end">
-          <div className="z-10 flex flex-col items-center lg:mr-24">
-            <img src={LogoCarina} width="150" height="200" alt="" />
-          </div>
-          <div className="absolute bottom-2 lg:bottom-10 right-23 w-full h-[450px] max-w-[350px] z-[1]">
+          <div className="hidden lg:flex absolute bottom-2 lg:bottom-0 right-24 w-full h-[550px] max-w-[350px] z-[1]">
             <img
-              className="w-full h-full lg:h-[400px]"
-              src={FooterImage}
-              alt=""
+              className="w-full h-full lg:h-[550px]"
+              src={LogoCarina}
+              alt="logo-carina"
             />
           </div>
         </div>
@@ -48,12 +44,12 @@ const Footer = (): React.ReactElement => {
             <>
               <div className="flex flex-col gap-2 w-[400px] pl-8">
                 <p className="text-2xl">Carina Vergara</p>
-                <p className=" font-thin">coach deportiva</p>
+                <p className=" font-extralight">coach deportiva</p>
               </div>
               <div className="flex flex-col gap-2 w-[400px] pl-8">
                 <p className="text-2xl">Contacto</p>
-                <p className=" font-thin">vergaracarina78@gmail.com</p>
-                <p className=" font-thin">+54 11 6281-0278</p>
+                <a href="mailto:vergaracarina78@gmail.com" className=" text-[18px] font-extralight">vergaracarina78@gmail.com</a>
+                <a href="tel:+541162810278" className="text-[18px] font-extralight">+54 11 6281-0278</a>
               </div>
             </>
           )}

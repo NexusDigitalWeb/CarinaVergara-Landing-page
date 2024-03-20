@@ -17,8 +17,8 @@
             "to": "#aboutMe"
         },
         {
-            "text": "FAQ",
-            "to": "#FAQ"
+            "text": "Sección",
+            "to": "#NEW"
         }
     ]
 }
