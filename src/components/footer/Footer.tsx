@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import LogoCarina from "/LogoCarina.svg";
+import LogoCarina from "/LogoCarinaFooter.svg";
 import menu from "../../json/menu.json";
 import { MenuItenrface } from "../../types/interfaces";
 import WsspIcon from "/whatsappicon.svg";
@@ -31,7 +31,7 @@ const Footer = (): React.ReactElement => {
     <footer className="relative  gap-2 bg-water-green text-white p-2 lg:px-16 lg:py-5 w-full -z-10 flex flex-col lg:justify-between">
       <div className="mt-10">
         <div className="flex flex-col items-center justify-center lg:items-end">
-          <div className="hidden lg:flex absolute bottom-2 lg:bottom-0 right-24 w-full h-[550px] max-w-[350px] z-[1]">
+          <div className="lg:flex absolute bottom-3 lg:bottom-4 w-[350px] h-[550px] lg:w-full lg:-right-[100px] max-w-[800px] z-[1]">
             <img
               className="w-full h-full lg:h-[550px]"
               src={LogoCarina}
@@ -48,8 +48,18 @@ const Footer = (): React.ReactElement => {
               </div>
               <div className="flex flex-col gap-2 w-[400px] pl-8">
                 <p className="text-2xl">Contacto</p>
-                <a href="mailto:vergaracarina78@gmail.com" className=" text-[18px] font-extralight">vergaracarina78@gmail.com</a>
-                <a href="tel:+541162810278" className="text-[18px] font-extralight">+54 11 6281-0278</a>
+                <a
+                  href="mailto:vergaracarina78@gmail.com"
+                  className=" text-[18px] font-extralight"
+                >
+                  vergaracarina78@gmail.com
+                </a>
+                <a
+                  href="tel:+541162810278"
+                  className="text-[18px] font-extralight"
+                >
+                  +54 11 6281-0278
+                </a>
               </div>
             </>
           )}

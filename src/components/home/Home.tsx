@@ -1,7 +1,6 @@
 import React from "react";
 import Titles from "./Titles";
 import ContactMe from "../buttons/ContactMe";
-import HomeImage from "../../images/HomeImage";
 
 const Home = (): React.ReactElement => {
   return (
@@ -50,13 +49,19 @@ const Home = (): React.ReactElement => {
 
         <div className="flex flex-col justify-center items-center relative">
           {/* Mobile */}
-          <HomeImage classname="flex md:hidden" />
+          <img
+            src="HomeImage.svg"
+            alt="home-image"
+            className="flex md:hidden"
+          />
           {/* Desktop */}
-          <HomeImage classname="hidden md:flex md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px]" />
+          <img
+            src="HomeImage.svg"
+            alt=""
+            className="hidden md:flex md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px]"
+          />
           <Titles />
-          <div
-            className="text-texts-color text-[16px] p-3 w-[90%] flex flex-col lg:hidden"
-          >
+          <div className="text-texts-color text-[16px] p-3 w-[90%] flex flex-col lg:hidden">
             <p>
               25 años de experiencia en la Educación Física y el Fitness, unidos
               a través del Coaching Deportivo para trabajar en tu mente y

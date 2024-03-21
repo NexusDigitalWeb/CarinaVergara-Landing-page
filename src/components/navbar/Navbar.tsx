@@ -24,7 +24,9 @@ const Navbar = (): React.ReactElement => {
         setIsScrolled(false);
       }
 
-      if (currentScrollPos === 0) nav?.classList.add("bg-transparent"), nav?.classList.remove('bg-background-page-color');
+      if (currentScrollPos === 0)
+        nav?.classList.add("bg-transparent"),
+          nav?.classList.remove("bg-background-page-color");
       else nav?.classList.remove("bg-transparent");
     };
 
@@ -40,12 +42,14 @@ const Navbar = (): React.ReactElement => {
   return (
     <nav
       className={`w-full h-[80px] md:h-[100px] fixed transition-all duration-500  bg-transparent ${
-        isScrolled ? "translate-y-0 z-10 bg-background-page-color" : "-translate-y-full"
+        isScrolled
+          ? "translate-y-0 z-10 bg-background-page-color"
+          : "-translate-y-full"
       }`}
     >
       <div className="flex items-center justify-between h-full px-2 bg-transparent md:px-0 lg:px-5">
-        <div className="w-[80px] h-[80px] lg:w-[180px] flex items-center justify-center md:ml-10 lg:ml-0">
-          <LogoCarina classname="w-[130px] h-[130px]"/>
+        <div className="w-[80px] h-[80px] lg:w-[180px] flex flex-col items-center justify-center md:ml-10 lg:ml-0">
+          <LogoCarina />
         </div>
         <HamburgerButton isOpened={isMenuOpen} setState={handleClick} />
         <MenuDesktop />
