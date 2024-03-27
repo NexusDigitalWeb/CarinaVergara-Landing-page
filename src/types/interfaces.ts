@@ -47,3 +47,9 @@ export interface ReviewsTypes {
   text: string;
   student: string;
 }
+
+export interface JourneyTypes {
+  text: string,
+  image: string,
+  index: number
+}

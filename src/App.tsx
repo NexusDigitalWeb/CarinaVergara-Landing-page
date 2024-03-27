@@ -7,6 +7,7 @@ import AOS from "aos";
 import "./index.css";
 import ServicesPage from "./components/services/ServicesPage";
 import ReviewsPage from "./components/reviews/ReviewsPage";
+import MyJourneyPage from "./components/myjourney/MyJourneyPage";
 
 AOS.init();
 
@@ -19,10 +20,7 @@ const App = (): React.ReactElement => {
         <ServicesPage />
         <ReviewsPage />
         <AboutMe />
-        {/* ¡TEMPORAL! */}
-        <div className="h-dvh text-texts-color text-[50px] lg:text-[70px] flex items-center justify-center" id="NEW">
-          Sección nueva
-        </div>
+        <MyJourneyPage/>
       </main>
       <Footer />
     </>

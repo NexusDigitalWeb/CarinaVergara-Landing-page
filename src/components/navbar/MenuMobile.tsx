@@ -50,7 +50,7 @@ const MenuMobile = ({
 
       <div className="relative">
         <div
-          className={`flex flex-col gap-[15px] w-[50%] p-10 font-medium text-[20px] text-texts-color md:text-[24px] relative z-10 ${
+          className={`flex flex-col gap-[15px] w-[50%] text-nowrap p-10 font-medium text-[20px] text-texts-color md:text-[24px] relative z-10 ${
             stateAction ? "left-0" : "-left-[1000px]"
           } transition-all ease-in duration-500`}
         >
@@ -58,7 +58,7 @@ const MenuMobile = ({
           <a href="#services" onClick={() => setState(false)}>Servicios</a>
           <a href="#students" onClick={() => setState(false)}>Alumnos</a>
           <a href="#aboutMe" onClick={() => setState(false)}>Sobre mí</a>
-          <a href="#NEW" onClick={() => setState(false)}>Sección nueva</a>
+          <a href="#myJourney" onClick={() => setState(false)}>Mi recorrido</a>
         </div>
 
         <div

@@ -7,7 +7,7 @@ const MenuDesktop = (): React.ReactElement => {
       <a href="#services" className="hover:scale-110 transition-all ease-in duration-150">Servicios</a>
       <a href="#students" className="hover:scale-110 transition-all ease-in duration-150">Alumnos</a>
       <a href="#aboutMe" className="hover:scale-110 transition-all ease-in duration-150">Sobre mí</a>
-      <a href="#NEW" className="hover:scale-110 transition-all ease-in duration-150">Sección nueva</a>
+      <a href="#myJourney" className="hover:scale-110 transition-all ease-in duration-150">Mi recorrido</a>
     </div>
   );
 };
