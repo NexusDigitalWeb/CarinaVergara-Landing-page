@@ -69,7 +69,7 @@ const Footer = (): React.ReactElement => {
                 key={index}
                 className="border-b text-center p-5 w-[200px] z-[1] lg:w-[105px] lg:h-[40px] lg:flex lg:items-center lg:justify-center lg:border-b-0 lg:border-r lg:text-sm"
               >
-                <a href={item.to}>{item.text}</a>
+                <a className="text-nowrap" href={item.to}>{item.text}</a>
               </div>
             ))}
           </div>
@@ -83,13 +83,13 @@ const Footer = (): React.ReactElement => {
       <a href="https://www.facebook.com/vikinga2014coach" target="_blank">
           <FacebookIcon sx={{color: '#ffff'}}/>
       </a>
-      <a href="/">
+      <a href="https://wa.me/+541162810278" target="_blank">
           <WhatsappIcon sx={{color: '#ffff'}}/>
       </a>
         </div>
         <div>
           <p className="flex justify-center text-[10px]">
-            <img src={CopyrighIcon} alt="" />
+            <img src={CopyrighIcon} alt='copyrigthIcon' />
             Carina Vergara - Todos los derechos reservados
           </p>
         </div>

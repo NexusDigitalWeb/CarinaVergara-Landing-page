@@ -12,7 +12,7 @@ const SocialMedia = (): React.ReactElement => {
       <a href="https://www.facebook.com/vikinga2014coach" target="_blank">
         <FacebookIcon sx={{color: '#220953'}}/>
       </a>
-      <a href="/">
+      <a href="https://wa.me/+541162810278" target="_blank">
         <WhatsappIcon sx={{color: '#220953'}}/>
       </a>
     </div>

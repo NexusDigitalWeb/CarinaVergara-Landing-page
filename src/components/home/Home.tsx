@@ -20,7 +20,7 @@ const Home = (): React.ReactElement => {
             </p>
           </div>
           <div
-            className="hidden lg:flex lg:flex-col text-texts-color text-[17px] p-3 w-[90%]"
+            className="hidden lg:flex lg:flex-col text-texts-color text-[17px] p-10 w-[80%]"
             data-aos="fade-right"
             data-aos-duration="2000"
           >

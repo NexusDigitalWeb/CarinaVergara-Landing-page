@@ -9,9 +9,9 @@ const MyJourneyInfo = ({
   const isEvenIndex = index % 2 === 0;
 
   return (
-    <div className="lg:mb-44">
+    <div className="lg:mb-44 mt-10">
       <div
-        className={`flex flex-col-reverse ${
+        className={`flex flex-col-reverse w-full px-5 ${
           isEvenIndex ? "md:flex-row-reverse" : "md:flex-row"
         } items-center`}
         data-aos="fade-right"
@@ -21,7 +21,7 @@ const MyJourneyInfo = ({
         <img
           src={image}
           alt={image}
-          className="w-full h-[350px] md:h-[500px] p-5 md:p-8"
+          className="w-full h-[400px] md:h-[600px] p-5 md:p-8 object-contain"
         />
       </div>
     </div>
