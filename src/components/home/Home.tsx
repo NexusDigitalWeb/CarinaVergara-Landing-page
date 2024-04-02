@@ -72,7 +72,7 @@ const Home = (): React.ReactElement => {
             </p>
           </div>
           <div className="mt-10 lg:hidden">
-            <ContactMe text="Contáctame" /> {/*Agregar link de wpp  */}
+            <ContactMe text="Contáctame" />
           </div>
         </div>
       </div>
