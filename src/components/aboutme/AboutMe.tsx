@@ -6,16 +6,16 @@ import TitlesH2 from "../tags/TitlesH2";
 const AboutMe = (): React.ReactElement => {
   return (
     <div
-      className="h-full w-full flex flex-col gap-10 mb-10"
+      className="h-dvh w-full flex flex-col gap-10 mb-10"
       id="aboutMe"
-      data-aos="fade-left"
-      data-aos-duration="800"
     >
       <TitlesH2 text="Acerca de mí" />
       <div className="flex h-full justify-center px-4 md:px-20 ">
         <div
           className="bg-gradient rounded-xl min-w-[270px] max-w-[1030px] h-full shadow-xl 
       flex flex-col items-center justify-center lg:flex-row gap-8 lg:px-10"
+      data-aos="fade-left"
+      data-aos-duration="800"
         >
           <div>
             <img
