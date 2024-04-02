@@ -21,7 +21,7 @@ const MyJourneyInfo = ({
         <img
           src={image}
           alt={image}
-          className="w-full h-[400px] md:h-[600px] p-5 md:p-8 object-contain"
+          className="w-full h-[400px] md:w-[400px] md:h-[600px] lg:w-full p-5 md:p-8 object-contain"
         />
       </div>
     </div>

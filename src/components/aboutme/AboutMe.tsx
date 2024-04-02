@@ -6,7 +6,7 @@ import TitlesH2 from "../tags/TitlesH2";
 const AboutMe = (): React.ReactElement => {
   return (
     <div
-      className="h-dvh w-full flex flex-col gap-10 mb-10"
+      className="w-full flex flex-col gap-10 mb-10"
       id="aboutMe"
     >
       <TitlesH2 text="Acerca de mí" />
