@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import LogoCarina from "/LogoCarinaFooter.svg";
 import menu from "../../json/menu.json";
 import { MenuItenrface } from "../../types/interfaces";
-import WsspIcon from "/whatsappicon.svg";
-import FacebookIcon from "/facebookicon.svg";
-import InstagramIcon from "/SocialInstagram.svg";
+import WhatsappIcon from "@mui/icons-material/WhatsApp";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import CopyrighIcon from "/CopyrighIcon.svg";
 
 const Footer = (): React.ReactElement => {
@@ -77,15 +77,15 @@ const Footer = (): React.ReactElement => {
       </div>
       <div className="z-10 flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between lg:border-t lg:px-8 lg:pt-5">
         <div className="flex items-center justify-center gap-2 z-[1]">
-          <a href="" target="_blank">
-            <img src={InstagramIcon} alt="instagram-logo" />
-          </a>
-          <a href="" target="_blank">
-            <img src={FacebookIcon} alt="facebook-logo" />
-          </a>
-          <a href="" target="_blank">
-            <img src={WsspIcon} alt="whatsapp-logo" />
-          </a>
+        <a href="https://www.instagram.com/coach_deportiva/" target="_blank">
+        <InstagramIcon sx={{color: '#ffff'}}/>
+      </a>
+      <a href="https://www.facebook.com/vikinga2014coach" target="_blank">
+          <FacebookIcon sx={{color: '#ffff'}}/>
+      </a>
+      <a href="/">
+          <WhatsappIcon sx={{color: '#ffff'}}/>
+      </a>
         </div>
         <div>
           <p className="flex justify-center text-[10px]">
