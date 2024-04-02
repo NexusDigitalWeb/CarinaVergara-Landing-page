@@ -10,27 +10,27 @@
         {
           "text": "Yoga integral",
           "description": "Ejercicios físicos, asanas y técnicas de yoga adaptados para mejorar la postura y el bienestar mental. Incluye meditaciones guiadas, mantras y visualizaciones para estimular y regular las emociones.", 
-          "wppLink": "string 1"
+          "wppLink": "https://wa.link/05fvzt"
         },
         {
           "text": "Fusión Flow",
           "description": "Movilidad, Hatha yoga, animal flow y mindfullness en una hora.", 
-          "wppLink": "string 2"
+          "wppLink": "https://wa.link/mqnwrf"
         },
         {
           "text": "Animal Flow",
           "description": "Trabajos con el propio peso corporal uniendo conexión, rendimiento, resiliencia, trabajar la movilidad de manera funcional, el sistema neuronal y la fuerza combinando patrones de movimiento que liberan nuestra mente para poder usar nuestro cuerpo y disfrutar en el proceso.", 
-          "wppLink": "string 3"
+          "wppLink": "https://wa.link/v1yrva"
         },
         {
           "text": "Funcional en casa",
           "description": "Entrenamiento adaptado a los elementos con los que contas en casa, grupal o individual personalizado.",
-          "wppLink": "string 4"
+          "wppLink": "https://wa.link/g54pd3"
         },
         {
           "text":"Naad Yoga",
-          "description": "el uso de la voz nos libera y nos permite una forma de meditar muy hermosa y efectiva. Meditar y cantar mantras con el uso adecuado de la respiración y la voz para disminuir el estrés y calmar la mente.",
-          "wppLink": "string 6"
+          "description": "El uso de la voz nos libera y nos permite una forma de meditar muy hermosa y efectiva. Meditar y cantar mantras con el uso adecuado de la respiración y la voz para disminuir el estrés y calmar la mente.",
+          "wppLink": "https://wa.link/r65ywv"
         }
       ]
     },
@@ -44,22 +44,22 @@
         {
           "text": "Crossfit",
           "description": "Para atletas, intermedio o principiantes. Entrenamiento funcional y de potencia continuamente variado e intenso.",
-          "wppLink": "string 1"
+          "wppLink": "https://wa.link/2dqobl"
         },
         {
           "text": "Fitness",
           "description": "Plan de gimnasio adaptado.",
-          "wppLink": "string 1"
+          "wppLink": "https://wa.link/w0gogk"
         },
         {
           "text": "Fitness Preventivo",
           "description": "Fitness enfocado en un trabajo simétrico y preventivo con fusión flow y animal flow.",
-          "wppLink": "string 1"
+          "wppLink": "https://wa.link/v8aze5"
         },
         {
           "text": "Powerlifting",
           "description": "Deporte de fuerza principiantes, amateurs y profesionales para todas las edades.",
-          "wppLink": "string 1"
+          "wppLink": "https://wa.link/b16oek"
         }
       ]
     },
@@ -73,17 +73,17 @@
         {
           "text": "Principiantes",
           "description": "Plan de entrenamiento para personas principiantes.",
-          "wppLink": "string 1"
+          "wppLink": "https://wa.link/4psovf"
         },
         {
           "text": "Intermedias",
           "description": "Plan de entrenamiento para personas intermedias.",
-          "wppLink": "string 1"
+          "wppLink": "https://wa.link/wld2lu"
         },
         {
           "text": "Avanzadas",
           "description": "Plan de entrenamiento para personas avanzadas.",
-          "wppLink": "string 1"
+          "wppLink": "https://wa.link/4yrbvf"
         }
       ]
     },
