@@ -21,7 +21,7 @@ const AboutMe = (): React.ReactElement => {
             <img
               className="mt-10 md:my-10 bg-black rounded-xl md:w-[300] md:h-[320px] lg:h-[500px] min-w-[260px] h-[293px]"
               src={CarinaImg}
-              alt=""
+              alt="CarinaImg"
             />
           </div>
           <div className="flex flex-col items-center justify-center lg:h-[500px] lg:justify-start lg:gap-10  lg:w-[435px]">
@@ -40,7 +40,7 @@ const AboutMe = (): React.ReactElement => {
       </div>
 
       <div className="flex items-center justify-center">
-        <ContactMe text="Contactame!" link="sdfsfsf" />
+        <ContactMe text="Contactame!"/>
       </div>
     </div>
   );

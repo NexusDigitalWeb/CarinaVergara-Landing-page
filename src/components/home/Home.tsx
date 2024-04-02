@@ -41,7 +41,6 @@ const Home = (): React.ReactElement => {
           <div className="hidden mt-10 lg:flex">
             <ContactMe
               text="Contáctame"
-              link=""
               classname="lg:w-[300px] lg:h-[60px] lg:text-[18px]"
             />
           </div>
@@ -73,7 +72,7 @@ const Home = (): React.ReactElement => {
             </p>
           </div>
           <div className="mt-10 lg:hidden">
-            <ContactMe text="Contáctame" link="" /> {/*Agregar link de wpp  */}
+            <ContactMe text="Contáctame" /> {/*Agregar link de wpp  */}
           </div>
         </div>
       </div>

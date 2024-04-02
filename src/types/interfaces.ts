@@ -12,7 +12,6 @@ export interface CardQuestion {
 
 export interface ContacMeInterface {
   text: string;
-  link: string;
   classname?: string;
 }
 
