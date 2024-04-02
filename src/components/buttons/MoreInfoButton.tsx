@@ -128,7 +128,7 @@ const MoreInfoButton = ({
                 </Typography>
                 {!isAUniqueService && (
                   <SelectPlanButton
-                    to="" //! Agregar link de wpp
+                    to={item.wppLink} 
                     buttonText="¡Quiero optar por este plan!"
                     styles={selectPlanButtonStyles}
                   />
@@ -138,7 +138,7 @@ const MoreInfoButton = ({
             {isAUniqueService && (
               <div className="flex justify-center w-[90%]">
                 <SelectPlanButton
-                  to="" //! Agregar link de wpp
+                  to="https://wa.link/nz3u98"
                   buttonText="¡Quiero optar por este plan!"
                   styles={selectPlanButtonStyles}
                 />
