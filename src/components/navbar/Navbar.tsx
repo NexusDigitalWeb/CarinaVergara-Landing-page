@@ -48,7 +48,7 @@ const Navbar = (): React.ReactElement => {
       }`}
     >
       <div className="flex items-center justify-between h-full px-2 bg-transparent md:px-0 lg:px-5">
-        <div className="w-[80px] h-[80px] lg:w-[180px] flex flex-col items-center justify-center md:ml-10 lg:ml-0">
+        <div className="w-full h-[80px] lg:w-[180px] flex flex-col items-center justify-center md:ml-10 lg:ml-0">
           <LogoCarina />
         </div>
         <HamburgerButton isOpened={isMenuOpen} setState={handleClick} />
