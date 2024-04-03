@@ -18,7 +18,7 @@
         },
         {
             "text": "Mi recorrido",
-            "to": "#NEW"
+            "to": "#myJourney"
         }
     ]
 }
