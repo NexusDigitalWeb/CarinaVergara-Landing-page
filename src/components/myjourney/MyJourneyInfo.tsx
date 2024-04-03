@@ -17,7 +17,7 @@ const MyJourneyInfo = ({
         data-aos="fade-right"
         data-aos-duration="800"
       >
-        <p className="p-5 md:p-8 md:w-[80%] lg:text-[21px]">{text}</p>
+        <p className="p-5 md:p-8 md:w-[80%] lg:text-[21px]">{text.replace(/'/g, '"')}</p>
         <img
           src={image}
           alt={image}

@@ -47,7 +47,7 @@ const Carrousel = ({
                 <div className={classname}>
                   <span></span>
                   <p className="z-0 text-[14px] md:text-[18px] lg:text-[21px]">
-                    "{item.text}"
+                    "{item.text.replace(/'/g, '"')}"
                   </p>
                   <p className="z-0 font-semibold md:text-[18px] lg:text-[21px]">
                     {item.student}
