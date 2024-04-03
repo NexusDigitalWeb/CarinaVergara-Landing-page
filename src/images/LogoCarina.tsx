@@ -5,9 +5,9 @@ const LogoCarina = (): React.ReactElement => {
     <div className="ml-8 lg:ml-0 flex items-center w-full ">
       <a href="#" className="flex flex-col items-center h-full transition-all ease-in duration-200 lg:hover:opacity-70">
         <div className=" flex items-center">
-          <h1 className="font-bold md:text-[20px] text-texts-color text-nowrap">
+          <h2 className="font-bold md:text-[20px] text-texts-color text-nowrap">
             Carina Vergara.
-          </h1>
+          </h2>
           <img
             src="/LogoCarina.svg"
             alt="logo"

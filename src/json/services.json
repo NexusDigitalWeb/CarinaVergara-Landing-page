@@ -36,13 +36,13 @@
     },
     {
       "title": "Programación, y entrenamientos a distancia",
-      "description": "Programación de entrenamientos grupales o personalizados de fitness, especialmente crossfit, Fitness Preventivo, POWERLIFTING y objetivos personales.",
+      "description": "Programación de entrenamientos grupales o personalizados de fitness, especialmente crossFit, Fitness Preventivo, POWERLIFTING y objetivos personales.",
       "important": "Todas las clases incluyen fusión flow.",
       "image": "/Entrenamiento.svg",
       "is_a_unique_service": false,
       "modal": [
         {
-          "text": "Crossfit",
+          "text": "CrossFit",
           "description": "Para atletas, intermedio o principiantes. Entrenamiento funcional y de potencia continuamente variado e intenso.",
           "wppLink": "https://wa.link/2dqobl"
         },
@@ -58,7 +58,7 @@
         },
         {
           "text": "Powerlifting",
-          "description": "Deporte de fuerza principiantes, amateurs y profesionales para todas las edades.",
+          "description": "Deporte de fuerza principiantes, amateurs y profesionales para todas las edades y niveles.",
           "wppLink": "https://wa.link/b16oek"
         }
       ]
@@ -73,17 +73,17 @@
         {
           "text": "Principiantes",
           "description": "Plan de entrenamiento para personas principiantes.",
-          "wppLink": "https://wa.link/4psovf"
+          "wppLink": "https://wa.link/nscked"
         },
         {
           "text": "Intermedias",
           "description": "Plan de entrenamiento para personas intermedias.",
-          "wppLink": "https://wa.link/wld2lu"
+          "wppLink": "https://wa.link/xlci0a"
         },
         {
           "text": "Avanzadas",
           "description": "Plan de entrenamiento para personas avanzadas.",
-          "wppLink": "https://wa.link/4yrbvf"
+          "wppLink": "https://wa.link/kvf2mf"
         }
       ]
     },

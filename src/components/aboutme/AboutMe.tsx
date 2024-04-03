@@ -27,13 +27,12 @@ const AboutMe = (): React.ReactElement => {
           <div className="flex flex-col items-center justify-center lg:h-[500px] lg:justify-start lg:gap-10  lg:w-[435px]">
             <h3 className="text-2xl font-[500 lg:text-4xl lg:mt-5">Coach Deportiva</h3>
             <p className="p-6 md:px-20 lg:px-0 lg:text-xl">
-              Soy Profesora Nacional de Educación Física con un Máster en
-              fisiología Deportiva, Entrenadora Nacional y Coach. En mis 25 años
-              de experiencia, he logrado cada meta que me he propuesto en mi
-              carrera deportiva, así como con mis alumnos. Me enfoco en la
-              constancia, disciplina y enfoque, complementando mis prácticas con
-              meditación, yoga y desarrollo mental y emocional para entrenar la
-              mente a través del cuerpo.
+              Soy Profesora Nacional de Educación Física con un Máster en Fisiología Deportiva, 
+              Entrenadora Nacional y Coach. En mis 25 años de experiencia, he logrado cada meta 
+              que me he propuesto en mi carrera deportiva, así como con mis alumnos. Mi objetivo 
+              es inculcar en mis alumnos la constancia, disciplina y enfoque. Complemento mis 
+              prácticas con meditación, yoga y desarrollo mental y emocional para entrenar la mente 
+              a través del cuerpo.
             </p>
           </div>
         </div>

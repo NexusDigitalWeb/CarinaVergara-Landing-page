@@ -30,12 +30,12 @@ const Home = (): React.ReactElement => {
               emociones para cambiar tus acciones:
             </p>
             <p>
-              "Entreno la mente 🧩 a través del cuerpo con clases, programas y
-              talleres 🧠.
+              "Entreno la mente 🧠 a través del cuerpo con clases, programas y
+              talleres 🧘‍♂️.
             </p>
             <p>
               Te ayudo a generar consciencia de tus hábitos, 💪🏼empoderar tus
-              metas y transformar tus creencias limitantes"🧘‍♀️
+              metas y transformar tus creencias limitantes"🌟
             </p>
           </div>
           <div className="hidden mt-10 lg:flex">
