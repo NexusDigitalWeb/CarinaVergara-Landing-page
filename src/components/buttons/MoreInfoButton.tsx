@@ -91,6 +91,13 @@ const MoreInfoButton = ({
             {!isAUniqueService &&
               `Podés optar por ${services.length} programas:`}
           </Typography>
+          {isAUniqueService && (
+            <Typography>
+              Experimenta tres sesiones de 2:30 hs cada una enfocadas en mejorar
+              tu bienestar físico, mental y emocional, para alcanzar tus
+              objetivos y metas con mayor claridad y enfoque.
+            </Typography>
+          )}
           <Box
             sx={{
               display: "flex",
@@ -121,14 +128,14 @@ const MoreInfoButton = ({
                 }}
               >
                 <Typography variant="h5" sx={{ fontWeight: 800 }}>
-                  {item.text}:
+                  {item.text}
                 </Typography>
                 <Typography sx={{ marginTop: 1, width: "90%" }}>
                   {item.description}
                 </Typography>
                 {!isAUniqueService && (
                   <SelectPlanButton
-                    to={item.wppLink} 
+                    to={item.wppLink}
                     buttonText="¡Quiero optar por este plan!"
                     styles={selectPlanButtonStyles}
                   />

@@ -89,23 +89,23 @@
     },
     {
       "title": "Talleres y capacitaciones",
-      "description": "Experimenta tres sesiones de 2 horas cada una enfocadas en mejorar tu bienestar físico, mental y emocional, para alcanzar tus objetivos y metas con mayor claridad y enfoque.",
+      "description": "Experimenta tres sesiones de 2:30 hs cada una enfocadas en mejorar tu bienestar físico, mental y emocional, para alcanzar tus objetivos y metas con mayor claridad y enfoque.",
       "important": "Fecha a acordar.",
       "image": "/Talleres.svg",
       "is_a_unique_service": true,
       "modal": [
         {
-          "text": "Día 1",
+          "text": "Día 1: Cuerpo físico",
           "description": "Disfrutá de 45 minutos de enfoque intenso en el coaching personal, seguidos de una sesión de 45 minutos de meditación y visualización diseñada para clarificar tus objetivos. Finaliza con 30 minutos de práctica de Yoga dinámica, enfocada en liberar bloqueos y recargar tu energía vital.",
           "wppLink": "string 1"
         },        
         {
-          "text": "Día 2",
+          "text": "Día 2: Mentalidad",
           "description": "Sumergite en 45 minutos de trabajo de coaching, donde explorarás la teoría y el poder de los hábitos para el éxito. Continúa con una sesión de meditación de 45 minutos, diseñada para cultivar una mentalidad ganadora. Finaliza con 30 minutos de práctica de yoga, perfecta para crear hábitos positivos y enfocar tu mente hacia tus objetivos.",
           "wppLink": "string 1"
         },
         {
-          "text": "Día 3",
+          "text": "Día 3: Emociones",
           "description": "Disfrutá de 45 minutos de trabajo de coaching mientras exploras tus creencias más profundas. Sumergite luego en una sesión de 45 minutos de meditación para conectarte con tu propósito o Dharma. Finaliza con 30 minutos de práctica de yoga y mantras para cultivar un equilibrio emocional duradero.",
           "wppLink": "string 1"
         }
